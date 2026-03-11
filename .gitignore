@@ -39,12 +39,17 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 
-# Trae specific - ignore all except image-prompt-generator
+# Trae specific - ignore all except specified skills
 .trae/skills/
 !.trae/skills/image-prompt-generator/
+!.trae/skills/github-uploader/
 .trae/*
 !.trae/skills/
 
 # Other project files (keep repo focused on skill)
 LOGIN_GUIDE.md
 docs/
+
+# Include upload scripts and guide
+!scripts/
+!GITHUB_UPLOAD_GUIDE.md

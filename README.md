@@ -2,6 +2,28 @@
 
 AI 生图提示词生成器 - 用于生成 AI 生图工具（如豆包、Midjourney、Stable Diffusion）的提示词。
 
+## 🔥 新功能：GitHub 一键上传
+
+本项目包含一个实用的 `github-uploader` 技能，可以帮助你快速将代码上传到 GitHub。
+
+### 快速使用
+
+**在 Trae 中：**
+```
+上传代码到 GitHub
+```
+
+**或使用脚本：**
+```bash
+# Windows
+./scripts/github-upload.bat
+
+# Mac/Linux
+./scripts/github-upload.sh
+```
+
+详细使用说明见 [GITHUB_UPLOAD_GUIDE.md](./GITHUB_UPLOAD_GUIDE.md)
+
 ## 📦 包含的风格
 
 ### 1. 3D 电商促销插画 (`3d-ecommerce-promotion`)
@@ -36,6 +58,23 @@ AI 生图提示词生成器 - 用于生成 AI 生图工具（如豆包、Midjour
     ├── 3d-ecommerce-promotion.md     # 3D 电商风格
     └── chibi-anime-product.md        # Q 版二次元风格
 ```
+
+## 📦 包含的技能
+
+### 1. image-prompt-generator
+
+AI 生图提示词生成器，支持：
+- 交互式风格选择
+- 文案模板填写
+- 画幅比例选择
+- 自动生成完整提示词
+
+### 2. github-uploader
+
+GitHub 代码上传工具，支持：
+- GitHub CLI 认证管理
+- 自动创建仓库
+- 一键推送代码
 
 ## 📝 示例
 
