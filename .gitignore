@@ -44,3 +44,7 @@ Thumbs.db
 !.trae/skills/image-prompt-generator/
 .trae/*
 !.trae/skills/
+
+# Other project files (keep repo focused on skill)
+LOGIN_GUIDE.md
+docs/
