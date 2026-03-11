@@ -48,7 +48,3 @@ Thumbs.db
 # Other project files (keep repo focused on skill)
 LOGIN_GUIDE.md
 docs/
-
-# Include upload scripts and guide
-!scripts/
-!GITHUB_UPLOAD_GUIDE.md
