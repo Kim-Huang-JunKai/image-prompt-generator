@@ -1,8 +1,26 @@
-# Image Prompt Generator Skill
+# Image Prompt Generator
 
 AI 生图提示词生成器 - 用于生成 AI 生图工具（如豆包、Midjourney、Stable Diffusion）的提示词。
 
-## 📦 包含的风格
+## 🚀 使用方法
+
+### Claude Code 项目级技能
+
+本项目包含一个 Claude Code 项目级技能 (`CLAUDE.md`)，在 Claude Code 中打开此项目即可自动加载。
+
+**触发方式：**
+- "生成一个商品图片提示词"
+- "用 3D 电商风格生成提示词"
+- "帮我写一个 AI 绘画 prompt"
+
+### 交互式流程
+
+1. **选择风格** - 从可用风格列表中选择
+2. **填写文案** - 提供产品/服务信息
+3. **选择画幅** - 根据发布平台选择合适比例
+4. **生成提示词** - 获得完整的正面和负面提示词
+
+## 🎨 可用风格
 
 ### 1. 3D 电商促销插画 (`3d-ecommerce-promotion`)
 - **特点**: C4D 渲染，粘土质感，天蓝色背景，活泼科技感
@@ -12,29 +30,17 @@ AI 生图提示词生成器 - 用于生成 AI 生图工具（如豆包、Midjour
 - **特点**: 日系 Q 版动漫角色，赛璐璐上色，彩虹色系
 - **适用**: 产品推广、周边展示、社交媒体
 
-## 🚀 使用方法
-
-### 在 Trae 中使用
-
-1. 将此仓库克隆到本地
-2. 在 Trae IDE 中加载此目录
-3. 触发技能：`image-prompt-generator`
-
-### 交互式流程
-
-1. **选择风格** - 从可用风格列表中选择
-2. **填写文案** - 提供产品/服务信息
-3. **选择画幅** - 根据发布平台选择合适比例
-4. **生成提示词** - 获得完整的正面和负面提示词
-
 ## 📁 文件结构
 
 ```
-.trae/skills/image-prompt-generator/
-├── SKILL.md                          # 技能主文件
-└── styles/
-    ├── 3d-ecommerce-promotion.md     # 3D 电商风格
-    └── chibi-anime-product.md        # Q 版二次元风格
+.
+├── CLAUDE.md                           # Claude Code 项目级技能
+├── .trae/skills/image-prompt-generator/ # Trae 技能版本（可选）
+│   ├── SKILL.md
+│   └── styles/
+│       ├── 3d-ecommerce-promotion.md
+│       └── chibi-anime-product.md
+└── README.md
 ```
 
 ## 📝 示例
@@ -46,8 +52,6 @@ AI 生图提示词生成器 - 用于生成 AI 生图工具（如豆包、Midjour
 【产品/服务名称】智能手环
 【核心卖点】7 天续航，心率监测，防水设计
 【价格信息】首发价 199 元
-【服务地区】全国包邮
-【功能特性】运动计步，睡眠监测，消息提醒
 ```
 
 **输出**: 完整的 AI 生图提示词，包含主体、背景、材质、光照、色彩等详细描述
@@ -62,9 +66,7 @@ AI 生图提示词生成器 - 用于生成 AI 生图工具（如豆包、Midjour
 
 ### 添加新风格
 
-1. 在 `.trae/skills/image-prompt-generator/styles/` 目录创建新文件
-2. 定义风格 ID、核心美学、提示词模板
-3. 在 `SKILL.md` 中更新风格列表
+编辑 `CLAUDE.md` 文件，添加新的风格定义和提示词模板。
 
 ### 建议的风格类型
 

@@ -48,3 +48,6 @@ Thumbs.db
 # Other project files (keep repo focused on skill)
 LOGIN_GUIDE.md
 docs/
+
+# Claude Code - include project skills
+!CLAUDE.md
