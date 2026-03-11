@@ -42,7 +42,6 @@ Thumbs.db
 # Trae specific - ignore all except specified skills
 .trae/skills/
 !.trae/skills/image-prompt-generator/
-!.trae/skills/github-uploader/
 .trae/*
 !.trae/skills/
 
