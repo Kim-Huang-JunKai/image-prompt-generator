@@ -1,5 +1,12 @@
-# Ignore images
+# Ignore other images
 *.png
+!1.png
+!2.png
+!3.png
+!4.png
+!5.png
+
+# Ignore other images formats
 *.jpg
 *.jpeg
 *.gif
