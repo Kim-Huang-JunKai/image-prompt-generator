@@ -39,13 +39,7 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 
-# Trae specific - ignore all except specified skills
-.trae/skills/
-!.trae/skills/image-prompt-generator/
-.trae/*
-!.trae/skills/
-
-# Other project files (keep repo focused on skill)
+# Other project files (keep repo focused)
 LOGIN_GUIDE.md
 docs/
 
