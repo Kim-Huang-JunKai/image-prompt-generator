@@ -1,3 +1,10 @@
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
 # Include skill files
 !skill.md
 !styles/
